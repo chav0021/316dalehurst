@@ -1,0 +1,35 @@
+*, *:after, *:before {margin: 0; padding:0;)}
+
+.flex-img {display: block; margin: 0 auto; width: 100%;}
+
+main { width: 90%; max-width: 65rem; margin: 0 auto;}
+
+header, footer {padding: 2rem; text-align: center;}
+
+@media only screen and (min-width: 35em) {
+    header {padding: 8rem;}
+}
+
+ul {list-style-type: none;}
+
+.info {
+    padding: 2rem;
+}
+
+a {text-decoration: none;}
+
+.contact li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.btn {
+    display: block;
+    padding: 10px 12px;
+    border: 2px solid blue; 
+}
+
+header .btn {
+    max-width: 10rem;
+    margin: 0 auto;
+}
