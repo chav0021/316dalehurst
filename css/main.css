@@ -2,18 +2,16 @@
 
 .flex-img {display: block; margin: 0 auto; width: 100%;}
 
-main { width: 90%; max-width: 65rem; margin: 0 auto;}
+main { width: 90%; max-width: 75rem; margin: 0 auto; padding-bottom: 0rem;}
 
-header, footer {padding: 2rem; text-align: center;}
+header, footer {padding: 2rem; text-align: center; background-color: white;}
 
-@media only screen and (min-width: 35em) {
-    header {padding: 8rem;}
+footer {
+    margin-top: -3rem;
 }
 
-ul {list-style-type: none;}
-
-.info {
-    padding: 2rem;
+@media only screen and (min-width: 35em) {
+    header, footer {padding: 10rem 0 8rem;}
 }
 
 a {text-decoration: none;}
@@ -24,12 +22,91 @@ a {text-decoration: none;}
 }
 
 .btn {
+    color: #3366c6;
+    font-size: .95rem;
     display: block;
-    padding: 10px 12px;
-    border: 2px solid blue; 
+    padding: 10px 17px;
+    border: 2px solid #3366c6; 
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 header .btn {
-    max-width: 10rem;
+    max-width: 14rem;
     margin: 0 auto;
+    margin-top: 2rem;
+}
+
+header p, footer p {
+    max-width: 45rem;
+    margin: 1.8rem auto 0;
+}
+
+footer p {
+    margin: 1rem auto 2.75rem;
+}
+
+body {
+    background-color: #efefef;
+    font-family: "brandon-grotesque";
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.first-image {
+    position: relative;
+    margin-top: -4rem;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 900;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.998em;
+    line-height: .85;
+}
+
+.uno {
+  font-size: 2.8em;
+}
+
+h2 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.info {
+    padding: 17.25%;
+    background-color: white;
+}
+
+.address {
+    color: orange;
+    font-size: 1.65rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    position: relative;
+    margin-left: .8rem;
+} 
+
+ul li:before {
+    content: ' - ';
+    margin-left: -.92rem;
+}
+
+.inline-link {
+    color: orange;
+}
+
+.contact li:before {
+    content: none;
 }
