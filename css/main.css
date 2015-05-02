@@ -176,7 +176,7 @@ ul li:before {
     background-image: url(../images/316dalehurst-livingroom.jpg);
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 50em) {
     
     .hidden-small {
         display: none;
