@@ -110,13 +110,6 @@ small, .font_small {font-size: 0.707em;}
 @media only screen and (min-width: 35em) {
     .info {
         padding: 17.25%;
-        font-size: .75rem;
-    }
-}
-
-@media only screen and (min-width: 85em) {
-    .info {
-        font-size: 1rem;
     }
 }
 
@@ -145,4 +138,52 @@ ul li:before {
 
 .contact li:before {
     content: none;
+}
+
+.holder {
+    display: table;
+    width: 100%;
+    border: 0;
+}
+
+.holder>div {
+    display: block;
+    vertical-align: middle;
+    border: 0;
+    width: 91%;
+}
+
+.image-holder {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: none;
+}
+
+.text-holder {
+    padding: 4rem 2rem;
+    background-color: white;
+}
+
+.image-1 {
+    background-image: url(../images/316dalehurst-kitchen.jpg);
+}
+
+.image-2 {
+    background-image: url(../images/316dalehurst-masterbedroom.jpg);
+}
+
+.image-3 {
+    background-image: url(../images/316dalehurst-livingroom.jpg);
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .hidden-small {
+        display: none;
+    }
+    
+    .holder>div {
+        display: table-cell;
+        width: 50%;
+    }
 }
