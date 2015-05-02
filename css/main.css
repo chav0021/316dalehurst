@@ -102,17 +102,6 @@ h2 {font-size: 1.414em;}
 
 small, .font_small {font-size: 0.707em;}
 
-.info {
-    padding: 12.25% 9%;
-    background-color: white;
-}
-
-@media only screen and (min-width: 35em) {
-    .info {
-        padding: 17.25%;
-    }
-}
-
 .address {
     color: orange;
     font-size: 1.65rem;
