@@ -153,6 +153,28 @@ ul li:before {
     background-color: white;
 }
 
+@media only screen and (min-width: 38em) {
+    
+    .text-holder {
+        padding: 2rem;
+    }
+    
+    .text-holder h2, .text-holder ul {
+        font-size: 0.85em;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .text-holder {
+        padding: 4rem 2rem;
+    }
+    
+    .text-holder h2, .text-holder ul {
+        font-size: 1em;
+    }
+}
+
 .image-1 {
     background-image: url(../images/316dalehurst-kitchen.jpg);
 }
