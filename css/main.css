@@ -160,7 +160,11 @@ ul li:before {
     }
     
     .text-holder h2, .text-holder ul {
-        font-size: 0.85em;
+        font-size: 0.9em;
+    }
+    
+    .text-holder ul {
+        line-height: 1.2;
     }
 }
 
@@ -172,6 +176,10 @@ ul li:before {
     
     .text-holder h2, .text-holder ul {
         font-size: 1em;
+    }
+    
+    .text-holder ul {
+        line-height: 1.45;
     }
 }
 
